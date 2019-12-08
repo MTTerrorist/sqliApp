@@ -12,15 +12,9 @@ const FrontPage = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.headlineTextBig}>SQLite App</Text>
-      <Text key={index} style={styles.headlineTextSm}>
-        manage sqlite
-      </Text>
-      <Text key={index} style={styles.headlineTextSm}>
-        use animation
-      </Text>
-      <Text key={index} style={styles.headlineTextSm}>
-        use ring
-      </Text>
+      <Text style={styles.headlineTextSm}>manage sqlite</Text>
+      <Text style={styles.headlineTextSm}>use animation</Text>
+      <Text style={styles.headlineTextSm}>use ring</Text>
       <View style={styles.startBtnContainer}>
         <Button onPress={() => navigation.navigate("clocksList")}>Start</Button>
       </View>
